@@ -41,6 +41,7 @@ else{
         }
         else{
             System.out.println("Round " +round+ ":");
+            stickNumber--;
             System.out.println("The computer took 1 stick.");
             System.out.println("Now, " +stickNumber+ " remain.");
         }
