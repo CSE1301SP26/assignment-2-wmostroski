@@ -54,7 +54,7 @@ else{
 
             System.out.println("Round " +round+ ":");
             System.out.println("How many sticks will you take? ");
-            System.out.println("(Enter 2 for 2 sticks, and anything else for 1): ");
+            System.out.println("(Enter 2 for 2 sticks, and any other integer for 1): ");
             int humanSticks = in.nextInt();
             
             if(humanSticks == 2){
@@ -74,6 +74,7 @@ else{
 
         }
     }
+    if(round > 0){
 if(stickNumber == -1){
     System.out.println("You took too many sticks! You lose.");
 }
@@ -84,7 +85,9 @@ else{
     else{
         System.out.println("You lose!");
     }
+
 }
+    }
 
 
 }
